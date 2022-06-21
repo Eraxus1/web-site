@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.background {
+    background-image: url(/resim/64cef349-c269-4b6b-ac2d-a52663fd7905.jfif);
+    display: flex;
+    border: 1px solid black;
+    width: 1559px;
+    height: 350px;
+    display: grid;
+    -webkit-filter: blur(px);
+    -moz-filter: blur(px);
+    -ms-filter: blur(px);
+    -o-filter: blur(px);
+    filter: blur(px);
+}
+
+img {
+    width: 1559px;
+    height: 500px;
+}
+
+.profile {
+    float: left;
+    margin: 80px;
+    margin-top: 100px;
+    width: 500px;
+    display: flex;
+    height: 250px;
+}
+
+.profile .neon {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: -1px;
+}
+
+.detail {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+    margin-top: 80px
+}
+
+
+.container {
+    display: flex;
+}
+
+.about {
+    background-color: #0b0b0bf8;
+    color: white;
+    margin: 20px;
+    margin-left: 75px;
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    width: 500px;
+    height: 500px;
+    box-shadow:
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 5px #0ff;
+    border-radius: 10px
+}
+
+.about h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about p {
+    text-align: center;
+    opacity: 0.7;
+}
+
+button {
+    background-color: #008CBA;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 750px;
+    margin-left: 140px;
+    border-radius: 15px;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    height: 65px;
+}
+
+button:hover {
+    border: 2px solid #008CBA;
+    background-color: white;
+    color: #008CBA;
+    box-shadow:
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 10px #0ff;
+}
+
+
+.details {
+    background-color: #0b0b0bf8;
+    color: white;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.402);
+    width: 800px;
+    height: 500px;
+    float: right;
+    margin-left: 190px;
+    box-shadow:
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 5px #0ff;
+    border-radius: 10px
+}
+
+.details h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.details p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
+}
+
+.details h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    float: right;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 100px;
+}
+
+.neon {
+    color: #fff;
+    box-shadow:
+        0 0 10px #fff,
+        0 0 0px #fff,
+        0 0 0px #fff,
+        0 0 0px #0ff,
+        0 0 0px #0ff,
+        0 0 90px #0ff,
+        0 0 0px #0ff,
+        0 0 10px #0ff;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    box-align: center;
+}
+.demo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
